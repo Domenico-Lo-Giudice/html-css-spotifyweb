@@ -1,7 +1,7 @@
 .top-content {
     width: 100%;
     height: calc(100vh - 200px);
-    background-color: green;
+    display: flex;
 }
 
 .footer {
@@ -10,3 +10,14 @@
     background-color: aqua;
 }
 
+.side-bar {
+    width: 300px;
+    height: 100%;
+    background-color: orange;
+}
+
+.content {
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: blueviolet;
+}

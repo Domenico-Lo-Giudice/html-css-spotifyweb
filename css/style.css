@@ -40,7 +40,7 @@
 }
 
 .header {
-    height: 250px;
+    height: 120px;
     width: 100%;
 
     /* DEBUG */
@@ -52,9 +52,9 @@
 }
 
 .main {
-    margin-top: 250px;
+    margin-top: 120px;
     width: 100%;
-    height: calc(100% - 250px);
+    height: calc(100% - 120px);
 
     /* DEBUG */
     background-color: greenyellow;

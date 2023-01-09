@@ -45,16 +45,16 @@
 
     /* DEBUG */
     background-color: grey;
-    opacity: 90%;
+    opacity: 60%;
     /* DEBUG */
 
     position: fixed;
 }
 
 .main {
-    margin-top: 120px;
+    padding-top: 120px;
     width: 100%;
-    height: calc(100% - 120px);
+    height: 100%;
 
     /* DEBUG */
     background-color: greenyellow;

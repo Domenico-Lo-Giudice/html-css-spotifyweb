@@ -24,6 +24,7 @@
     /* DEBUG */
     background-color: orange;
     /* DEBUG */
+
 }
 
 .content {
@@ -44,7 +45,7 @@
 
     /* DEBUG */
     background-color: grey;
-    opacity: 80%;
+    opacity: 90%;
     /* DEBUG */
 
     position: fixed;
@@ -58,4 +59,16 @@
     /* DEBUG */
     background-color: greenyellow;
     /* DEBUG */
+
+    overflow: auto;
+
 }
+
+/* DEBUG */
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    
+}
+/* DEBUG */

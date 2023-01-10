@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .top-content {
     width: 100%;
 
@@ -17,6 +21,7 @@
     
 }
 
+/****** SIDE-BAR ******/
 .side-bar {
     width: 300px;
     height: 100%;
@@ -44,6 +49,8 @@ ul {
     margin-top: auto;
 }
 
+
+
 .nav > div > a > i {
     margin-top: 10px;
     margin-right: 10px;
@@ -51,7 +58,16 @@ ul {
 
 .side-bar > * {
     margin-left: 30px;
+    max-width: 180px;
+    
 }
+
+.nav > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/****** FINE SIDE-BAR ******/
 
 .content {
     width: calc(100% - 300px); 
@@ -64,27 +80,39 @@ ul {
     position: relative;
 }
 
+
+
+/* ****** HEADER ****** */
 .header {
     height: 120px;
     width: 100%;
 
     /* DEBUG */
     background-color: #080B12;
-    opacity: 60%;
+    opacity: 80%;
     /* DEBUG */
 
     position: fixed;
     display: flex;
     justify-content: end;
+    align-items: center;
 
     width: calc(100% - 300px);
     
 }
 
 .upgrade {
-
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    
 }
 
+/* ****** FINE HEADER ****** */
 
 .main {
     padding-top: 120px;

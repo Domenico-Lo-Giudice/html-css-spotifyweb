@@ -21,6 +21,36 @@
     width: 300px;
     height: 100%;
     background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.profile {
+    margin-top: auto;
+}
+
+.nav > div > a > i {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.side-bar > * {
+    margin-left: 30px;
 }
 
 .content {
@@ -46,14 +76,13 @@
     position: fixed;
     display: flex;
     justify-content: end;
-    
 
-   
+    width: calc(100% - 300px);
     
 }
 
 .upgrade {
-   
+
 }
 
 

@@ -44,7 +44,18 @@
     /* DEBUG */
 
     position: fixed;
+    display: flex;
+    justify-content: end;
+    
+
+   
+    
 }
+
+.upgrade {
+   
+}
+
 
 .main {
     padding-top: 120px;
@@ -52,13 +63,41 @@
     height: 100%;
     background-color: #141922;
     overflow: auto;
+
 }
+
+
+.recently-played {
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.creato-per {
+    padding-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artisti-popolari {
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /* DEBUG */
 .box {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background-color: blue;
+    margin: 10px;
+    
     
 }
 /* DEBUG */
+
+.artisti {
+    border-radius: 50%;
+}
+

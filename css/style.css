@@ -40,6 +40,9 @@ ul {
     list-style-type: none;
 }
 
+ul > li {
+    margin-top: 20px;
+}
 
 .nav {
     margin-bottom: 20px;
@@ -47,9 +50,30 @@ ul {
 
 .profile {
     margin-top: auto;
+    margin-bottom: 10px;
 }
 
 
+
+.profile > p > i {
+    margin-right: 5px;
+}
+
+
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.playlist {
+    overflow: auto;
+    color: grey;
+}
+
+.playlist > h3 {
+    color: white;
+}
 
 .nav > div > a > i {
     margin-top: 10px;
@@ -66,6 +90,7 @@ ul {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 
 /****** FINE SIDE-BAR ******/
 

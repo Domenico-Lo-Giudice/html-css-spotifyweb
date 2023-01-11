@@ -147,6 +147,7 @@ hr {
     text-align: center;
     color: white;
     padding: 15px;
+    margin-bottom: 100px;
 }
 
 
@@ -156,12 +157,19 @@ hr {
     border-radius: 50%;
 }
 
+.img-title {
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
 
 .main-nav {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 

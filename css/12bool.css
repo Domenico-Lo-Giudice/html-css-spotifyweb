@@ -49,7 +49,7 @@
 /* CONTAINER & ROW */
 
 .container {
-	max-width: 1170px;
+	max-width: 1500px;
 	margin: 0 auto;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .col-2 {
-	/* flex-basis: calc((100% / 12) * 2); */
+	flex-basis: calc((100% / 12) * 2);
 	max-width: calc((100% / 12) * 2);
 }
 

@@ -301,7 +301,17 @@ hr {
 
 }
 
+@media screen and (max-width: 1020px) {
 
+    .main-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
 
 
 

@@ -362,7 +362,7 @@ hr {
 
 
     .header {
-        width: calc(100% - 100px);
+        width: calc(100% - 50px);
     }
 
     .nav > img {
